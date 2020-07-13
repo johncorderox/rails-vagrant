@@ -72,6 +72,7 @@ rm $kindlegen_tarball
 install 'MuPDF' mupdf mupdf-tools
 install 'FFmpeg' ffmpeg
 install 'Poppler' poppler-utils
+install vagrant-snap
 
 # Lets switch to zsch
 install zsh
@@ -84,5 +85,3 @@ update-locale LANG=en_US.UTF-8 LANGUAGE=en_US.UTF-8 LC_ALL=en_US.UTF-8
 
 echo "test -d /vagrant/rails && cd /vagrant/rails" >> /home/vagrant/.zschrc
 
-
-echo 'all set, rock on!'
